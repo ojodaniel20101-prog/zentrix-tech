@@ -1,0 +1,105 @@
+{
+  "name": "ZENTRIX_TECH - Stream Movies, TV & Anime",
+  "short_name": "ZENTRIX_TECH",
+  "description": "World-class cinematic streaming platform. Movies, TV shows, and anime in stunning quality.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#050816",
+  "background_color": "#050816",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23050816' width='192' height='192'/><text x='50%' y='50%' font-size='80' font-weight='bold' fill='%2300D4FF' text-anchor='middle' dominant-baseline='middle' font-family='Space Grotesk, sans-serif'>ZX</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23050816' width='512' height='512'/><text x='50%' y='50%' font-size='250' font-weight='bold' fill='%2300D4FF' text-anchor='middle' dominant-baseline='middle' font-family='Space Grotesk, sans-serif'>ZX</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23050816' width='540' height='720'/><text x='50%' y='50%' font-size='100' font-weight='bold' fill='%2300D4FF' text-anchor='middle' dominant-baseline='middle' font-family='Space Grotesk, sans-serif'>ZENTRIX</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'><rect fill='%23050816' width='1280' height='720'/><text x='50%' y='50%' font-size='150' font-weight='bold' fill='%2300D4FF' text-anchor='middle' dominant-baseline='middle' font-family='Space Grotesk, sans-serif'>ZENTRIX TECH</text></svg>",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["entertainment", "video"],
+  "shortcuts": [
+    {
+      "name": "Browse Movies",
+      "short_name": "Movies",
+      "description": "Browse movies on ZENTRIX_TECH",
+      "url": "/movies",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23050816' width='96' height='96'/><text x='50%' y='50%' font-size='40' font-weight='bold' fill='%23FF6464' text-anchor='middle' dominant-baseline='middle'>🎬</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Browse TV Shows",
+      "short_name": "TV Shows",
+      "description": "Browse TV shows on ZENTRIX_TECH",
+      "url": "/tv",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23050816' width='96' height='96'/><text x='50%' y='50%' font-size='40' font-weight='bold' fill='%2364C8FF' text-anchor='middle' dominant-baseline='middle'>📺</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Browse Anime",
+      "short_name": "Anime",
+      "description": "Browse anime on ZENTRIX_TECH",
+      "url": "/anime",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23050816' width='96' height='96'/><text x='50%' y='50%' font-size='40' font-weight='bold' fill='%23C864FF' text-anchor='middle' dominant-baseline='middle'>⚔️</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "My Watchlist",
+      "short_name": "Watchlist",
+      "description": "View your watchlist",
+      "url": "/watchlist",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23050816' width='96' height='96'/><text x='50%' y='50%' font-size='40' font-weight='bold' fill='%2306FFA5' text-anchor='middle' dominant-baseline='middle'>📋</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "prefer_related_applications": false
+}
